@@ -72,7 +72,6 @@ local function bot_stats()
   local redis_scan = [[
     local cursor = '0'
     local count = 0
-
     repeat
       local r = redis.call("SCAN", cursor, "MATCH", KEYS[1])
       cursor = r[1]
@@ -94,7 +93,7 @@ local function run(msg, matches)
   if matches[1]:lower() == 'satan' then -- Put everything you like :)
     local about = _config.about_text
     local name = user_print_name(msg.from)
-    savelog(msg.to.id, name.." ["..msg.from.id.."] used /teleseed ")
+    savelog(msg.to.id, name.." ["..msg.from.id.."] used /satan ")
     return about
   end 
   if matches[1]:lower() == "statslist" then
@@ -141,13 +140,13 @@ return {
     "^[!/$&#@]([Ss]tats)$",
     "^[!/$&#@]([Ss]tatslist)$",
     "^[!/$&#@]([Ss]tats) (group) (%d+)",
-    "^[!/$&#@]([Ss]tats) (satan)",-- Put everything you like :)
-    "^[!/$&#@]([Ss]atan)"-- Put everything you like :)
+    "^[!/$&#@]([Ss]tats) (satan)",
+    "^([Ss]atan)",
     "^([Ss]tats)$",
     "^([Ss]tatslist)$",
     "^([Ss]tats) (group) (%d+)",
-    "^([Ss]tats) (satan)",-- Put everything you like :)
-    "^([Ss]atan)"-- Put everything you like :)
+    "^([Ss]tats) (satan)",
+    "^([Ss]atan)"
     }, 
   run = run
 }

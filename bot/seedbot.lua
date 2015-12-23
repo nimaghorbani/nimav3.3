@@ -220,16 +220,22 @@ function create_config( )
     "invite",
     "all",
     "helprealm"
+    "block",
+    "plugins",
+    "tagall"
     },
     sudo_users = {94704012},--Sudo users
     disabled_channels = {},
     realm = {53167206},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[W_SaTaN_W V3.5
+    about_text = [[W_SaTaN_W V 4.4.2
+    Advanced Bot Base On SEEDTEAM/TeleSeed
 Admins
 @WilSoN_DeVeLoPeR
+
 Special thanks to
-@Dawsh_Alfred
+@Dawsh_Alfred , @ImanDaneshi
+
 our channel
 @W_SaTaN_w_chnnl
 ]],

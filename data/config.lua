@@ -27,10 +27,10 @@ do local _ = {
     data = "data/moderation.json"
   },
   realm = {
-    53167206
+    63412073
   },
   sudo_users = {
-    94704012
+    107032464
   }
 }
 return _

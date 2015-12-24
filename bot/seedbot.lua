@@ -219,7 +219,7 @@ function create_config( )
     "download_media",
     "invite",
     "all",
-    "helprealm"
+    "helprealm",
     "block",
     "plugins",
     "tagall"

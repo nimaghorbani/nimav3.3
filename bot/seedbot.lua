@@ -219,26 +219,26 @@ function create_config( )
     "download_media",
     "invite",
     "all",
-    "helprealm"
+    "helprealm",
     "block",
     "plugins",
-    "tagall"
+    "tagall",
+    "Feedback",
+    "Cover"
     },
     sudo_users = {94704012},--Sudo users
     disabled_channels = {},
     realm = {53167206},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[W_SaTaN_W V 4.4.2
-    Advanced Bot Base On SEEDTEAM/TeleSeed
-Admins
-@WilSoN_DeVeLoPeR
-
-Special thanks to
-@Dawsh_Alfred , @ImanDaneshi
-
-our channel
-@W_SaTaN_w_chnnl
-]],
+    about_text = [[W_SaTaN_W V5.5.2
+    Admins
+    @WilSoN_DeVeLoPeR
+    
+    Special thanks to
+    @Nope_Nope_Nope (Alfred)
+    
+    nour channel
+    @W_SaTaN_w_chnnl",]],
     help_text = [[
 Commands list :
 
@@ -345,7 +345,7 @@ will return group ban list
 
 *Only owner can use res,setowner,promote,demote and log commands
 
-Creator: @WilSoN_DeVeLoPeR
+Creator: @WilSoN_DeVeLoPeR.
 ]]
 
   }

@@ -222,20 +222,23 @@ function create_config( )
     "helprealm",
     "block",
     "plugins",
-    "tagall"
+    "tagall",
+    "Feedback",
+    "Cover"
     },
     sudo_users = {107032464},--Sudo users
     disabled_channels = {},
     realm = {63412073},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Admins
-@Blackteam_5_00
-
-Special thanks to
-@WilSoN_DeVeLoPeR
-
-
-]],
+    about_text = [[W_SaTaN_W V5.5.2
+    Admins
+    @WilSoN_DeVeLoPeR
+    
+    Special thanks to
+    @Nope_Nope_Nope (Alfred)
+    
+    nour channel
+    @W_SaTaN_w_chnnl",]],
     help_text = [[
 Commands list :
 
@@ -342,7 +345,7 @@ will return group ban list
 
 *Only owner can use res,setowner,promote,demote and log commands
 
-
+Creator: @WilSoN_DeVeLoPeR.
 ]]
 
   }

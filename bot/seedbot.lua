@@ -226,9 +226,9 @@ function create_config( )
     "Feedback",
     "Cover"
     },
-    sudo_users = {94704012},--Sudo users
+    sudo_users = {112432434},--Sudo users
     disabled_channels = {},
-    realm = {53167206},--Realms Id
+    realm = {53611420},--Realms Id
     moderation = {data = 'data/moderation.json'},
     about_text = [[W_SaTaN_W V5.5.2
     Admins

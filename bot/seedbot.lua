@@ -226,19 +226,16 @@ function create_config( )
     "Feedback",
     "Cover"
     },
-    sudo_users = {112432434},--Sudo users
+    sudo_users = {128807237},--Sudo users
     disabled_channels = {},
-    realm = {53611420},--Realms Id
+    realm = {77319907},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[W_SaTaN_W V5.5.2
+    about_text = [[
     Admins
-    @WilSoN_DeVeLoPeR
+    @joker_bots
     
     Special thanks to
-    @Nope_Nope_Nope (Alfred)
-    
-    nour channel
-    @W_SaTaN_w_chnnl",]],
+    @WilSoN_DeVeLoPeR,]],
     help_text = [[
 Commands list :
 
@@ -345,7 +342,7 @@ will return group ban list
 
 *Only owner can use res,setowner,promote,demote and log commands
 
-Creator: @WilSoN_DeVeLoPeR.
+Creator: @joker_bots.
 ]]
 
   }

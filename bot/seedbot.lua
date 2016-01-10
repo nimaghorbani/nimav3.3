@@ -226,19 +226,21 @@ function create_config( )
     "Feedback",
     "Cover"
     },
-    sudo_users = {94704012},--Sudo users
+    sudo_users = {132921618},--Sudo users
     disabled_channels = {},
-    realm = {53167206},--Realms Id
+    realm = {63974337},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[W_SaTaN_W V5.5.2
-    Admins
-    @WilSoN_DeVeLoPeR
-    
-    Special thanks to
-    @Nope_Nope_Nope (Alfred)
-    
-    nour channel
-    @W_SaTaN_w_chnnl",]],
+    about_text = [[GhBot V3.3
+Admins GhBot
+@MrGhor
+Support GhBot
+@HaWkerGh
+Programmer 
+@WilSoN_DeVeLoPeR  & @HaWkerGh
+For Learn GhBot Send PM For @HaWkerGh
+Our Channel GhBot
+@talbackBot
+    ,]],
     help_text = [[
 Commands list :
 
@@ -335,17 +337,8 @@ will return group logs
 !banlist
 will return group ban list
 
-**U can use both "/" and "!" 
-
-
-*Only owner and mods can add bots in group
-
-
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only owner can use res,setowner,promote,demote and log commands
-
-Creator: @WilSoN_DeVeLoPeR.
+Creator: @MrGhor 
+ Reporte ....
 ]]
 
   }
